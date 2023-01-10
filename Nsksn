@@ -1,0 +1,5 @@
+local message = "Anúncio importante: nosso servidor estará em manutenção hoje à noite às 22h. Por favor, saiam do jogo antes disso."
+
+for _, player in ipairs(game.players) do
+  player.print(message)
+end
